@@ -1,0 +1,8 @@
+﻿<Window x:Class="HtmlViewer.HtmlContentWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="HtmlContentWindow" Height="400" Width="600">
+    <Grid>
+        <TextBlock Name="HtmlTextBlock" TextWrapping="Wrap" Margin="10"/>
+    </Grid>
+</Window>

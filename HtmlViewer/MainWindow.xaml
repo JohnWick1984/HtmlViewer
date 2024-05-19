@@ -1,0 +1,9 @@
+﻿<Window x:Class="HtmlViewer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="HTML Viewer" Height="200" Width="400">
+    <Grid>
+        <TextBox Name="UrlTextBox" VerticalAlignment="Top" Margin="10" Height="30"/>
+        <Button Content="Fetch HTML" VerticalAlignment="Top" Margin="10,40,10,0" Height="30" Click="FetchHtml_Click"/>
+    </Grid>
+</Window>
